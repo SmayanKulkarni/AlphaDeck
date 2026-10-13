@@ -1,0 +1,194 @@
+{
+  "originalPageCount": 9,
+  "primaryPageCount": 8,
+  "compatibilityPages": 1,
+  "originalVisualCount": 82,
+  "nativePages": [
+    {
+      "name": "b9a963410d53a970d7c6",
+      "title": "Portfolio overview",
+      "hidden": false,
+      "metrics": [
+        "Total Clients",
+        "Total Loan",
+        "Total Deposit",
+        "Loan to Deposit Ratio",
+        "Total Fees"
+      ],
+      "charts": [
+        "Current balances by joining cohort",
+        "Clients by relationship",
+        "Lending and deposits by loyalty",
+        "Client geography"
+      ],
+      "visuals": 26
+    },
+    {
+      "name": "809cd0a24507d4e12bb1",
+      "title": "Lending portfolio",
+      "hidden": false,
+      "metrics": [
+        "Total Loan",
+        "Bank Loan Amount",
+        "Business Lending Amount",
+        "Credit Cards Balance"
+      ],
+      "charts": [
+        "Bank lending by relationship",
+        "Total lending by income band",
+        "Top 10 occupations by bank lending",
+        "Bank lending by joining cohort"
+      ],
+      "visuals": 25
+    },
+    {
+      "name": "47e23ce268d409a5a321",
+      "title": "Deposit portfolio",
+      "hidden": false,
+      "metrics": [
+        "Total Deposit",
+        "Total Bank Deposit",
+        "Total Checking Accounts",
+        "Total Saving Account"
+      ],
+      "charts": [
+        "Deposits by relationship",
+        "Deposits by nationality",
+        "Relationship mix by fee tier",
+        "Top 10 occupations by bank deposits"
+      ],
+      "visuals": 25
+    },
+    {
+      "name": "74633cc6570e32071360",
+      "title": "Funding composition",
+      "hidden": false,
+      "metrics": [
+        "Total Deposit",
+        "Foreign Currency Amount",
+        "Avg Deposit Per Client",
+        "Loan to Deposit Ratio"
+      ],
+      "charts": [
+        "Deposits by loyalty and relationship",
+        "Lending versus deposits by joining cohort",
+        "Deposits by age and gender",
+        "Deposits by client tenure"
+      ],
+      "visuals": 25
+    },
+    {
+      "name": "dede4dde024968b1e8cc",
+      "title": "Portfolio screening",
+      "hidden": false,
+      "metrics": [
+        "High Risk Loan Clients",
+        "Overleveraged Clients",
+        "High Loan Low Income Count",
+        "Credit Risk Ratio"
+      ],
+      "charts": [
+        "Bank-loan concentration by nationality",
+        "Loan / deposit ratio by relationship",
+        "High-loan / low-income clients by nationality",
+        "Card balances by relationship",
+        "Above-average loan clients by tenure",
+        "Average bank loan by age band"
+      ],
+      "visuals": 29
+    },
+    {
+      "name": "fd258e5f327e9003901b",
+      "title": "Client acquisition",
+      "hidden": false,
+      "metrics": [
+        "Total Clients",
+        "Cumulative Clients",
+        "High Income Clients",
+        "Low Income Clients"
+      ],
+      "charts": [
+        "New clients by joining year",
+        "Cumulative client acquisition",
+        "Nationality mix by joining year",
+        "Client mix by income band"
+      ],
+      "visuals": 25
+    },
+    {
+      "name": "375baac23a2089d0e95b",
+      "title": "Client composition",
+      "hidden": false,
+      "metrics": [
+        "Total Clients",
+        "High Income Clients",
+        "Low Income Clients",
+        "Avg Properties Owned"
+      ],
+      "charts": [
+        "Age and income composition",
+        "Client acquisition by income band",
+        "Client tenure by gender",
+        "Acquisition cohorts by loyalty"
+      ],
+      "visuals": 26
+    },
+    {
+      "name": "1365fa90e990a77ee245",
+      "title": "Estimated fee analysis",
+      "hidden": false,
+      "metrics": [
+        "Total Fees",
+        "Avg Fee Per Client",
+        "Revenue per Loan",
+        "Total Loan"
+      ],
+      "charts": [
+        "Estimated fees by relationship and loyalty",
+        "Fee-tier mix by income band",
+        "Avg estimated fee by loyalty and income",
+        "Estimated fees by joining cohort"
+      ],
+      "visuals": 27
+    },
+    {
+      "name": "3ac3a41fcc4009ab1b5b",
+      "title": "Portfolio overview · compatibility",
+      "hidden": true,
+      "metrics": [
+        "Total Clients",
+        "Total Loan",
+        "Total Deposit",
+        "Loan to Deposit Ratio",
+        "Total Fees"
+      ],
+      "charts": [
+        "Current balances by joining cohort",
+        "Clients by relationship",
+        "Lending and deposits by loyalty",
+        "Client geography"
+      ],
+      "visuals": 26
+    }
+  ],
+  "pageIdMap": {
+    "b9a963410d53a970d7c6": "b9a963410d53a970d7c6",
+    "809cd0a24507d4e12bb1": "809cd0a24507d4e12bb1",
+    "47e23ce268d409a5a321": "47e23ce268d409a5a321",
+    "74633cc6570e32071360": "74633cc6570e32071360",
+    "dede4dde024968b1e8cc": "dede4dde024968b1e8cc",
+    "fd258e5f327e9003901b": "fd258e5f327e9003901b",
+    "375baac23a2089d0e95b": "375baac23a2089d0e95b",
+    "1365fa90e990a77ee245": "1365fa90e990a77ee245",
+    "3ac3a41fcc4009ab1b5b": "3ac3a41fcc4009ab1b5b"
+  },
+  "preservedDax": true,
+  "changes": [
+    "Home and Summary consolidated into Portfolio overview; original Summary identifier retained as a hidden compatibility page.",
+    "Removed incomparable summary donut, redundant gender/nationality donuts and dense scrolling multi-card blocks.",
+    "Removed balance-by-cohort YoY metrics from acquisition UI; underlying DAX remains unchanged.",
+    "Funnel visuals for categorical income/occupation distributions changed to bars.",
+    "Synced joining-year and nationality slicers across report, preserving linked acquisition pages.",
+    "Only model-source change is repointing the CSV to the supplied project and explicit en-GB date parsing."
+  ]
+}

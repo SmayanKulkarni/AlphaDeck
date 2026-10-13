@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T17:38:00.000Z",
+  "title": "Design System: Banking Dark UI",
+  "extensions": {
+    "colorMeta": {
+      "canvas": { "role": "neutral", "displayName": "Midnight Canvas", "canonical": "#0C111B", "tonalRamp": ["#0C111B", "#101827", "#151F2E", "#1C2A3D", "#2C3D52", "#617087", "#AABAD0", "#F1F5FA"] },
+      "teal": { "role": "primary", "displayName": "Portfolio Teal", "canonical": "#61D4B3", "tonalRamp": ["#123F35", "#1B5D4E", "#287A66", "#3B9E83", "#61D4B3", "#86DFC6", "#B1EADF", "#DAF6F0"] },
+      "red": { "role": "tertiary", "displayName": "Risk Rose", "canonical": "#F19199", "tonalRamp": ["#531C24", "#7A2B35", "#A8424D", "#CD626C", "#F19199", "#F6B1B7", "#FACFD3", "#FDEBEC"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Analyst Heading", "purpose": "Page and analytical-section titles." },
+      "body": { "displayName": "Operational Body", "purpose": "Chart context and helper copy." },
+      "label": { "displayName": "Control Label", "purpose": "Slicers, cards, and navigation." }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": []
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "The Night Shift Control Room",
+    "overview": "A calm dark-mode Power BI system for trustworthy portfolio risk review. Tonal layering, restrained native controls, and signal-led accent colors keep analytical decisions clear.",
+    "keyCharacteristics": ["Tonal navy layering", "Signal-only accent color", "Compact native controls"],
+    "rules": [
+      { "name": "The Signal-Only Accent Rule", "body": "Accent color communicates data meaning, not decoration.", "section": "colors" },
+      { "name": "The Flat-By-Default Rule", "body": "Do not add ornamental shadows, gradients, or glass effects to native report surfaces.", "section": "elevation" }
+    ],
+    "dos": ["Do use accent color consistently by analytical meaning.", "Do retain native filters and cross-filter behavior when simplifying a chart."],
+    "donts": ["Don't reintroduce redundant donut or funnel visuals where ranked bars are clearer.", "Don't use red for non-risk data."]
+  }
+}

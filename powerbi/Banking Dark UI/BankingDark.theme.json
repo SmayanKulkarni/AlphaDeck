@@ -1,0 +1,108 @@
+{
+  "name": "BankingDark",
+  "dataColors": [
+    "#61D4B3",
+    "#76B7FA",
+    "#BCACF3",
+    "#F2C46D",
+    "#F19199",
+    "#81C5D8",
+    "#C5D28A",
+    "#98A6C9"
+  ],
+  "background": "#151F2E",
+  "foreground": "#F1F5FA",
+  "tableAccent": "#61D4B3",
+  "good": "#61D4B3",
+  "neutral": "#F2C46D",
+  "bad": "#F19199",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#F1F5FA"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#AABAD0"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#F1F5FA"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#F1F5FA"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#151F2E"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F1F5FA"
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": "#F1F5FA"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#AABAD0"
+              }
+            },
+            "fontSize": 10
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#AABAD0"
+              }
+            },
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#AABAD0"
+              }
+            },
+            "gridlineColor": {
+              "solid": {
+                "color": "#2C3D52"
+              }
+            },
+            "showAxisTitle": false
+          }
+        ]
+      }
+    }
+  }
+}

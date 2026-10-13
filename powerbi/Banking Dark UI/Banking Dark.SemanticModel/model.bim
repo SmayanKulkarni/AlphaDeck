@@ -1,0 +1,1540 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Banking\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "banking.avg_deposit_per_client": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Avg Deposit Per Client"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg deposit / client": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.avg_fee_per_client": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Avg Fee Per Client"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg estimated fee / client": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.bank_loan_amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Bank Loan Amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Bank lending": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.banking_relationship": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Banking Relationship"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Banking Relationship": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.business_lending_amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Business Lending Amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Business lending": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.credit_cards_balance": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Credit Cards Balance"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Card balances": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.credit_risk_ratio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Credit Risk Ratio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Card balance / lending": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.cumulative_clients": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Cumulative Clients"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cumulative clients": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.fee_structure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Fee Structure"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Fee Structure": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.foreign_currency_amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Foreign Currency Amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "FX balances": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.gender": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Gender"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Gender": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.high_loan_low_income_count": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "High Loan Low Income Count"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "High-loan / low-income clients": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.high_risk_loan_clients": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "High Risk Loan Clients"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Above-average loan clients": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.income_band": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Income Band"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Income Band": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.loan_to_deposit_ratio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Loan to Deposit Ratio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Loan / deposit ratio": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.nationality": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Nationality"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Nationality": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.overleveraged_clients": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Overleveraged Clients"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Loans above deposits": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.revenue_per_loan": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Revenue per Loan"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Estimated fee / lending": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_bank_deposit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Bank Deposit"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Bank deposits": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_checking_accounts": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Checking Accounts"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Checking balances": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_clients": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Clients"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Clients": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_deposit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Deposit"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Total deposits": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_fees": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Fees"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Estimated fees": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_loan": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Loan"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Total lending": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "banking.total_saving_account": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Banking",
+                    "ConceptualProperty": "Total Saving Account"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Savings balances": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "date_table.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Date Table",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Joining year": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "040a954c-d16e-ed69-6446-0e801a16dcd8",
+        "fromColumn": "Joined Bank",
+        "fromTable": "Banking",
+        "toColumn": "Date",
+        "toTable": "Date Table"
+      }
+    ],
+    "sourceQueryCulture": "en-AU",
+    "tables": [
+      {
+        "name": "Banking",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Client ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "852d8b49-da47-4968-8301-ed210fc2eb42",
+            "sourceColumn": "Client ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d20ce920-ac18-4d3e-9cf6-effcaff9c13f",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c33afd55-299d-4d8c-93b0-068f9c9ad2a0",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Joined Bank",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "08ee9bb9-7759-450f-b2b2-8a3bb5416f6e",
+            "sourceColumn": "Joined Bank",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nationality",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "61825c27-dec1-4395-9ce4-729d479e1d6e",
+            "sourceColumn": "Nationality",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Occupation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5ab0f4ba-248e-4fea-934b-81905cda7aa8",
+            "sourceColumn": "Occupation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fee Structure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0ebfebd5-9bf5-416a-92c8-935eb1c41a79",
+            "sourceColumn": "Fee Structure",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Loyalty Classification",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0a050d13-ead6-4a85-9cef-891140dcba86",
+            "sourceColumn": "Loyalty Classification",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Estimated Income",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8302c1ea-93e3-487e-80ae-e3ebf33e5023",
+            "sourceColumn": "Estimated Income",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Superannuation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8c24df60-4406-4c95-9c77-aa5688e43cca",
+            "sourceColumn": "Superannuation",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Credit Card Count",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5c2a20ee-888e-4def-8e7f-fddb2e0cc842",
+            "sourceColumn": "Credit Card Count",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Credit Card Balance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8b88ff07-3364-4e24-9f9d-3ae919425f5b",
+            "sourceColumn": "Credit Card Balance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Bank Loan",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b1c917b5-b8b3-4375-bc9b-097b43e70351",
+            "sourceColumn": "Bank Loan",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Bank Deposit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "094dcc02-3d91-46c6-b4eb-fc21d4a469c7",
+            "sourceColumn": "Bank Deposit",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Checking Account",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e425fe6e-362b-4437-8e41-de3e1182c2db",
+            "sourceColumn": "Checking Account",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saving Account",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "71981a68-6bfe-4a06-be59-aedb9cfdc89f",
+            "sourceColumn": "Saving Account",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Foreign Currency Account",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2d2cff22-7c6e-486b-9aac-00b288e76b1e",
+            "sourceColumn": "Foreign Currency Account",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Business Lending",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "29f6e20e-a755-45ae-aeb1-b6be77aa0e36",
+            "sourceColumn": "Business Lending",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Properties Owned",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "286be5ba-8826-4173-9046-813ad5884438",
+            "sourceColumn": "Properties Owned",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Banking Relationship",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "90744383-a07e-41e5-98b8-95e649308c8d",
+            "sourceColumn": "Banking Relationship",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2ebb109a-3706-4812-b672-391537a644c0",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IAId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3a0f5b15-4ec0-40cd-a6ee-6ad5425447fb",
+            "sourceColumn": "IAId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "085577e0-337a-49ea-8d6d-d3e3315091b1",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Age Band",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8da261c2-fcf7-49bf-831a-fd50dbd23447",
+            "sourceColumn": "Age Band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Income Band",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "55dfa7b9-8654-4853-848d-0e8ebfe3f0bf",
+            "sourceColumn": "Income Band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Processing fees",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "689a3c0d-03a3-468d-a4a2-82a7f22fe06a",
+            "sourceColumn": "Processing fees",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Engagement days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4a60b3ee-1fec-4cf5-8950-6ec51ec15523",
+            "sourceColumn": "Engagement days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Engagement Timeframe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e17399ca-966e-45ed-8419-c80de9892c5f",
+            "sourceColumn": "Engagement Timeframe",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e8a5bd4a-d13f-45a3-bfbb-227c0c7432f2",
+        "measures": [
+          {
+            "name": "Bank Loan Amount",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Bank Loan])",
+            "lineageTag": "a309c182-223d-49ff-804c-bc63f110d27e"
+          },
+          {
+            "name": "Business Lending Amount",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Business Lending])",
+            "lineageTag": "6431e295-db4c-48bf-bacb-1c055cdb4076"
+          },
+          {
+            "name": "Credit Cards Balance",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Credit Card Balance])",
+            "lineageTag": "62bf53ff-2c33-46a6-b617-61b9719abf70"
+          },
+          {
+            "name": "Total Bank Deposit",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Bank Deposit])",
+            "lineageTag": "16eae785-2fbc-44e3-9639-131743e006ea"
+          },
+          {
+            "name": "Total Checking Accounts",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Checking Account])",
+            "lineageTag": "e8afa468-a5cc-4b89-8e5b-7cdc59de3ff4"
+          },
+          {
+            "name": "Total Saving Account",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Saving Account])",
+            "lineageTag": "bd727e24-ff3a-4710-b62a-c65107c0e258"
+          },
+          {
+            "name": "Foreign Currency Amount",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Banking'[Foreign Currency Account])",
+            "lineageTag": "b1b2ba9f-a070-45f2-9446-8784373d6cd5"
+          },
+          {
+            "name": "Engagement Length",
+            "expression": "SUM('Banking'[Engagement days])",
+            "formatString": "0",
+            "lineageTag": "95c0e51b-401f-4d94-a71e-4e6e175eff4d"
+          },
+          {
+            "name": "Total Loan",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[Bank Loan Amount] + [Business Lending Amount] + [Credit Cards Balance]",
+            "lineageTag": "274f975f-ae97-4b01-ae6d-9674249894bd"
+          },
+          {
+            "name": "Total Deposit",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[Total Bank Deposit] + [Total Saving Account] + [Total Checking Accounts] + [Foreign Currency Amount]",
+            "lineageTag": "78b9369e-f24d-4f5c-908d-6f949fcd083e"
+          },
+          {
+            "name": "Total Fees",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUMX('Banking', [Total Loan] * 'Banking'[Processing fees])",
+            "lineageTag": "36aec22e-5865-4119-9cf2-168355784f52"
+          },
+          {
+            "name": "Total CC Amount",
+            "expression": "SUM('Banking'[Credit Card Count])",
+            "formatString": "0",
+            "lineageTag": "a4251340-8ffb-4fd2-95b4-1b47fd8fda23"
+          },
+          {
+            "name": "Avg Loan Per Client",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Loan], DISTINCTCOUNT('Banking'[Client ID]))",
+            "lineageTag": "856c389b-131b-4f14-a8bd-4f771a6380a8"
+          },
+          {
+            "name": "Avg Deposit Per Client",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Deposit], DISTINCTCOUNT('Banking'[Client ID]))",
+            "lineageTag": "7ea510d5-5fa1-4377-8c93-48569d50bd22"
+          },
+          {
+            "name": "Loan to Deposit Ratio",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Loan], [Total Deposit])",
+            "lineageTag": "a4bf1f70-32f5-47c7-bad6-89cb6cea6b5e"
+          },
+          {
+            "name": "YoY Loan Growth",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(",
+              "    HASONEVALUE('Date Table'[Year]),",
+              "    DIVIDE(",
+              "        CALCULATE([Bank Loan Amount], 'Date Table'[Year] = MAX('Date Table'[Year])) - ",
+              "        CALCULATE([Bank Loan Amount], 'Date Table'[Year] = MAX('Date Table'[Year]) - 1),",
+              "        CALCULATE([Bank Loan Amount], 'Date Table'[Year] = MAX('Date Table'[Year]) - 1)",
+              "    ),",
+              "    BLANK()",
+              ")"
+            ],
+            "lineageTag": "c1347d4d-0c61-4b43-aef6-d5289f2b8753"
+          },
+          {
+            "name": "YoY Deposit Growth",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(",
+              "    HASONEVALUE('Date Table'[Year]),",
+              "    DIVIDE(",
+              "        CALCULATE([Total Deposit], 'Date Table'[Year] = MAX('Date Table'[Year])) - ",
+              "        CALCULATE([Total Deposit], 'Date Table'[Year] = MAX('Date Table'[Year]) - 1),",
+              "        CALCULATE([Total Deposit], 'Date Table'[Year] = MAX('Date Table'[Year]) - 1)",
+              "    ),",
+              "    BLANK()",
+              ")"
+            ],
+            "lineageTag": "2820a7c6-5189-4b0c-86d7-e833bb0f9a89"
+          },
+          {
+            "name": "YoY Client Growth",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE(CALCULATE(DISTINCTCOUNT('Banking'[Client ID]), SAMEPERIODLASTYEAR('Date Table'[Date])), CALCULATE(DISTINCTCOUNT('Banking'[Client ID]), PREVIOUSYEAR('Date Table'[Date])))",
+            "lineageTag": "2b2c2614-0b78-468a-b9e8-d64fe5ddee0c"
+          },
+          {
+            "name": "Cumulative Clients",
+            "expression": "CALCULATE(DISTINCTCOUNT('Banking'[Client ID]), FILTER(ALL('Date Table'), 'Date Table'[Date] <= MAX('Date Table'[Date])))",
+            "formatString": "0",
+            "lineageTag": "09f54320-840f-40d2-b524-b81e994ef238"
+          },
+          {
+            "name": "High Value Clients",
+            "expression": "CALCULATE(DISTINCTCOUNT('Banking'[Client ID]), 'Banking'[Income Band] = \"High\")",
+            "formatString": "0",
+            "lineageTag": "db5a1d2f-cc6e-4096-9d15-5882fe44200d"
+          },
+          {
+            "name": "Avg Properties Owned",
+            "expression": "AVERAGE('Banking'[Properties Owned])",
+            "formatString": "0",
+            "lineageTag": "24ef172b-ddc9-4ac8-89d8-f0cd768ea0a8"
+          },
+          {
+            "name": "High Income Clients",
+            "expression": "CALCULATE(DISTINCTCOUNT('Banking'[Client ID]), 'Banking'[Income Band] = \"High\")",
+            "formatString": "0",
+            "lineageTag": "7f4fec1b-c70b-426a-b854-aaf0aefe0a10"
+          },
+          {
+            "name": "Low Income Clients",
+            "expression": "CALCULATE(DISTINCTCOUNT('Banking'[Client ID]), 'Banking'[Income Band] = \"Low\")",
+            "formatString": "0",
+            "lineageTag": "bbc1995c-3a31-44dd-a302-f2e113ba080e"
+          },
+          {
+            "name": "Total Clients",
+            "expression": "DISTINCTCOUNT('Banking'[Client ID])",
+            "formatString": "0",
+            "lineageTag": "1069196d-f0da-46fc-bbe2-23444b92910c"
+          },
+          {
+            "name": "High Risk Loan Clients",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    DISTINCTCOUNT('Banking'[Client ID]),",
+              "    'Banking'[Bank Loan] > AVERAGE('Banking'[Bank Loan])",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "d16bbf82-a3a8-4399-910c-773c67fe5558"
+          },
+          {
+            "name": "Overleveraged Clients",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    DISTINCTCOUNT('Banking'[Client ID]),",
+              "    'Banking'[Bank Loan] > 'Banking'[Bank Deposit]",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "da4fbb1d-79db-4a76-a74e-2319525a8b93"
+          },
+          {
+            "name": "Credit Risk Ratio",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Credit Cards Balance], [Total Loan])",
+            "lineageTag": "26e14906-baf8-4a39-8d60-1a457e6f5bd0"
+          },
+          {
+            "name": "High Loan Low Income Count",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    DISTINCTCOUNT('Banking'[Client ID]),",
+              "    'Banking'[Income Band] = \"Low\",",
+              "    'Banking'[Bank Loan] > AVERAGE('Banking'[Bank Loan])",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "0ea08e94-502a-4b26-9fe0-5199128fe3f5"
+          },
+          {
+            "name": "Avg Loan by Income Band",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Bank Loan Amount], [Total Clients])",
+            "lineageTag": "83460c48-bd42-4204-a7a6-c28fcb1718d2"
+          },
+          {
+            "name": "Growth Rate %",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Clients] - CALCULATE([Total Clients], PREVIOUSYEAR('Date Table'[Date])), CALCULATE([Total Clients], PREVIOUSYEAR('Date Table'[Date])))",
+            "lineageTag": "22e2b7ad-4042-41ec-9312-f63fadaac2b3"
+          },
+          {
+            "name": "Avg Fee Per Client",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Fees], [Total Clients])",
+            "lineageTag": "41355ada-ebc5-4646-a3b6-2dd6ffa0de0b"
+          },
+          {
+            "name": "Revenue per Loan",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Fees], [Total Loan])",
+            "lineageTag": "b5815a5b-b334-4eae-949e-828f86bd7e80"
+          },
+          {
+            "name": "Fee Concentration %",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Total Fees], CALCULATE([Total Fees], ALL('Banking')))",
+            "lineageTag": "03f93f15-b19d-4b50-9386-3152ae270371"
+          },
+          {
+            "name": "Loan Concentration %",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Bank Loan Amount], CALCULATE([Bank Loan Amount], ALL('Banking')))",
+            "lineageTag": "30457bfd-04f6-4e33-97a0-50fa377148dd"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Banking",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"D:\\VG Codes\\SmayanBodya\\banking-risk-analytics-Portfolio-3-main\\Banking.csv\"),[Delimiter=\",\", Columns=25, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Joined Bank\", type date}, {\"Credit Card Balance\", type number}, {\"Bank Loans\", type number}, {\"Bank Deposits\", type number}, {\"Checking Accounts\", type number}, {\"Saving Accounts\", type number}, {\"Foreign Currency Account\", type number}, {\"Business Lending\", type number}, {\"Estimated Income\", type number}, {\"Superannuation Savings\", type number}}, \"en-GB\"),",
+                "    #\"Inserted Year\" = Table.AddColumn(#\"Changed Type\", \"Year\", each Date.Year([Joined Bank]), Int64.Type),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Inserted Year\",{{\"Age\", Int64.Type}}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Changed Type1\", \"Age Band\", each if [Age] < 31 then \"18-30\" else if [Age] < 46 then \"31-45\" else if [Age] < 61 then \"46-60\" else \"61+\"),",
+                "    #\"Added Custom1\" = Table.AddColumn(#\"Added Custom\", \"Income Band\", each if [Estimated Income] < 100000 then \"Low\" else if [Estimated Income] < 300000 then \"Mid\" else \"High\"),",
+                "    #\"Added Custom2\" = Table.AddColumn(#\"Added Custom1\", \"Processing fees\", each if [Fee Structure] = \"High\" then 0.05 else if [Fee Structure] = \"Mid\" then 0.03 else 0.01),",
+                "    #\"Added Custom3\" = Table.AddColumn(#\"Added Custom2\", \" Engagement days\", each Duration.Days(Date.From(DateTime.LocalNow()) - [Joined Bank])),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Added Custom3\",{{\" Engagement days\", Int64.Type}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type2\",{{\" Engagement days\", \"Engagement days\"}}),",
+                "    #\"Added Custom4\" = Table.AddColumn(#\"Renamed Columns\", \"Engagement Timeframe\", each if [Engagement days] < 365 then \"Less than 1 Year\" else if [Engagement days] < 1825 then \"1-5 Years\" else if [Engagement days] < 3650 then \"5-10 Years\" else \"10+ Years\"),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Added Custom4\",{{\"GenderId\", \"Gender\"}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Renamed Columns1\",\"1\",\"Male\",Replacer.ReplaceText,{\"Gender\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"2\",\"Female\",Replacer.ReplaceText,{\"Gender\"}),",
+                "    #\"Renamed Columns2\" = Table.RenameColumns(#\"Replaced Value1\",{{\"BRId\", \"Banking Relationship\"}}),",
+                "    #\"Replaced Value2\" = Table.ReplaceValue(#\"Renamed Columns2\",\"1\",\"Premium\",Replacer.ReplaceText,{\"Banking Relationship\"}),",
+                "    #\"Replaced Value3\" = Table.ReplaceValue(#\"Replaced Value2\",\"2\",\"Business\",Replacer.ReplaceText,{\"Banking Relationship\"}),",
+                "    #\"Replaced Value4\" = Table.ReplaceValue(#\"Replaced Value3\",\"3\",\"Personal\",Replacer.ReplaceText,{\"Banking Relationship\"}),",
+                "    #\"Replaced Value5\" = Table.ReplaceValue(#\"Replaced Value4\",\"4\",\"SME\",Replacer.ReplaceText,{\"Banking Relationship\"}),",
+                "    #\"Renamed Columns3\" = Table.RenameColumns(#\"Replaced Value5\",{{\"Superannuation Savings\", \"Superannuation\"}, {\"Amount of Credit Cards\", \"Credit Card Count\"}, {\"Bank Loans\", \"Bank Loan\"}, {\"Bank Deposits\", \"Bank Deposit\"}, {\"Saving Accounts\", \"Saving Account\"}, {\"Checking Accounts\", \"Checking Account\"}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Renamed Columns3\",{\"Location ID\", \"Banking Contact\", \"Risk Weighting\"}),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Removed Columns\",{{\"Credit Card Count\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type3\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Date Table",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "89bdb875a68349eb9acad22224960e93"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "e02ec8b3-6667-4d39-8f40-09ec0267909d",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "YEAR('Date Table'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "9b3d3c70-c28c-4409-a455-e0d20f713fb5",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Month Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "MONTH('Date Table'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "c407194c-5010-45d3-bb0d-93d0c0ad8941",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Month Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('Date Table'[Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "d461c116-86cb-433f-9493-00da7a72b84d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "\"Q\" & QUARTER('Date Table'[Date])",
+            "isDataTypeInferred": true,
+            "lineageTag": "9fb5ca92-88e5-436b-9339-1ea2a9a9601a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Week Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "WEEKNUM('Date Table'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "bcedc9e4-9deb-425b-98aa-53265bcc317d",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "4043ee3d-63d7-4244-84d1-866457f698b8",
+        "partitions": [
+          {
+            "name": "Date Table",
+            "mode": "import",
+            "source": {
+              "expression": "CALENDAR(DATE(1995,1,1), DATE(2021,12,31))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

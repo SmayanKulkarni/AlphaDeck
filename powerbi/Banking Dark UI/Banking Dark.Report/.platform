@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Banking Dark"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9bf908cf-7caa-4a63-8606-a4d53d8f5d37"
+  }
+}
